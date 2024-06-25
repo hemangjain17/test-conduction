@@ -1,0 +1,73 @@
+.title-container{
+  width: 770px;
+  height:150px;
+  display: block;
+  margin-top: 100px;
+  background-color: white;
+  padding: 10px 0px 0px 20px;
+  border-top: 20px solid #673AB7;
+  border-left: 8px solid rgb(66, 133, 244);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.section-container{
+  border-top: 20px solid #673AB7;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 660px;
+  padding: 10px 20px;
+}
+.title-text , .section-text{
+  color: rgb(32, 33, 36);
+  display: block;
+  height: 48px;
+  width: 720px;
+  font-size: 32px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid rgb(204, 201, 201);
+}
+.section-text{
+  width: 640px;
+  font-size: 26px;
+}
+.title-description-text-container{
+  margin-bottom: 10px;
+}
+.title-description-text ,.section-description-text{
+  color: rgb(32, 33, 36);
+  display: block;
+  height: 22px;
+  width: 720px;
+  border: none;
+  font-size: 15px;
+  border-bottom: 1px solid rgb(204, 201, 201);
+  border-top: 1px solid rgb(204, 201, 201);
+}
+.section-description-text{
+  width: 640px;
+}
+.title-description-text::placeholder,
+.section-description-text::placeholder{
+  color: grey;
+}
+.title-description-text:focus,
+.section-description-text:focus{
+  border-top: none;
+}
+.title-default-marks-text{
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: cursive;
+  color: #673AB7;
+}
+.title-default-marks{
+  border: 1px solid blue;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 40px;
+  margin-left: 8px;
+  font-size: 15px;
+}

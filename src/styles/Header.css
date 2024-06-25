@@ -1,0 +1,60 @@
+.header{
+  position: fixed;
+  top : 0;
+  width: 100%;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  display: flex;
+}
+.header-image{
+  vertical-align: top;
+  margin-top: 5px;
+  margin-left: 10px;
+  display: inline-block;
+}
+.skillop-header-image{
+  height:70px;
+  width: 70px;
+}
+.skillop-header-text{
+  margin-top: 15px;
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: 500;
+  color:rgb(0, 0, 0);
+  display: inline-block;
+}
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: last baseline;
+  flex: 6;
+}
+.side-menu{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex: 1;
+}
+.side-menu-btn{
+  padding-right: 30px;
+}
+.response,.quiz ,.setting{
+  color: black;
+  display: inline-block;
+  margin-left: 10px;
+  border: 1px solid #f0ebf8;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: cursive;
+  padding-bottom: 10px;
+}
+.hamburger-image{
+  width: 30px;
+  height: 30px;
+}

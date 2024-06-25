@@ -1,0 +1,116 @@
+.quiz-analysis-container{
+  background-color: white;
+  width: 350px;
+  padding: 10px;
+  border-top: 5px solid #226c47;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.quiz-analysis-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.quiz-analysis-header-text{
+  font-size: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.num-question{
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid rgb(193, 193, 193);
+}
+.question-numbers {
+  border-bottom: 1px solid rgb(193, 193, 193);
+  padding: 7px;
+}
+.section-numbers {
+  padding: 7px;
+}
+.section-names{
+  padding-left: 15px;
+  padding-right: 15px;
+  border-bottom: 1px solid rgb(193, 193, 193);
+}
+.question-num-heading , .section-num-heading{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #226c47;
+}
+.question-num-data , .section-num-data , .section-name-data{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+  color: rgb(66, 133, 244);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.question-num-value , .section-num-value{
+  font-weight: bold;
+  color: blue;
+}
+
+.section-name-heading{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #226c47;
+}
+.section-name-value{
+  margin-left: 30px;
+  color: rgb(32, 32, 249);
+}
+
+.total-marks-data{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 5px;
+  margin: 10px;
+}
+.total-marks-data-text{
+  margin-right: 40px;
+  font-family: cursive;
+  color: #673AB7;
+}
+.total-marks-data-value{
+  color: red;
+}
+.submit-btn{
+  padding: 10px;
+  background-color: #673AB7;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.quiz-timer{
+  background-color: white;
+  margin-top:40px;
+  width: 350px;
+  padding: 10px;
+  border-top: 3px solid #226c47;
+  display: flex;
+  justify-content: center;
+}
+.add-timer-container-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  border-bottom: 2px dashed grey;
+  width: 350px;
+  margin-bottom: 20px;
+}
+

@@ -1,0 +1,3 @@
+{
+  "questionsData" : [{"questionId":1,"questionText":"what is javascript ?","questionMarks":4,"questionDesc":false,"questiontype":"mcq","correctOptionIndex":0}]
+}

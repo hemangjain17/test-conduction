@@ -1,0 +1,100 @@
+body{
+  background-color: #f0ebf8;
+  position: static;
+}
+.main-body-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: first baseline;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.quiz-data-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+}
+
+.option-delete-btn{
+  display: inline-block;
+  color: red;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.cross-btn-image {
+  width: 25px;
+  height: 25px;
+}
+
+::placeholder{
+  color: rgb(86, 86, 86);
+  font-weight: 400;
+}
+input:focus{
+  outline: none;
+  border-bottom: 1px solid rgb(155, 105, 105);
+}
+
+.add-btn-container , .remove-btn-container{
+  margin-top: 20px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: end;
+}
+.add-btn{
+  border-radius: 50px;
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  background-color: rgb(66, 133, 244);
+  color: white;
+  cursor: pointer;
+}
+
+.text-style-container{
+  width: 200px;/*rgb(210, 199, 224);*/
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin-left: 5px;
+}
+.style-bold,.style-italic,.style-underline{
+  margin: 2px;  
+  margin-left: 3px;
+}
+.style-bold-btn,.style-italic-btn,.style-underline-btn{
+  border: none;
+  font-size: 20px;
+  height: 30px;
+  width: 40px;
+  border-radius: 2px;
+  background-color: white;
+  color: #673AB7;
+}
+.style-bold-btn{
+  font-weight: bold;
+}
+.style-italic-btn{
+  font-style: italic;
+}
+.style-underline-btn{
+  text-decoration: underline;
+}
+
+.hidden{
+  display: none;
+}
+
+.remove-btn-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 40px;
+  cursor: pointer;
+}

@@ -1,0 +1,60 @@
+.question-container{
+  display: block;
+  width: 700px;
+  margin-top: 20px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: white;
+  
+}
+.question-index{
+  display: inline-block;
+  width: 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+  padding: 5px;
+  font-family: cursive;
+  font-weight: bold;
+}
+.question-text{
+  display: inline-block;
+  width: 600px;
+  height: 22px;
+  font-size: 17px;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #f0ebf8;
+  padding: 10px;
+  border-radius: 8px;
+}
+.marks-container , .correct-option-container{
+  display: inline-block;
+}
+.marks-text , .correct-option-text{
+  display: inline-block;
+  font-family: cursive;
+  font-size: 15px;
+  margin-left: 60px;
+  padding: 10px;
+  border-radius: 8px;
+  color: #673AB7;
+}
+.marks-input {
+  width: 30px;
+  height: 22px;
+  border: 1px solid #673AB7;
+  border-radius: 5px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+.correct-option-input{
+  width: 38px;
+  height: 22px;
+  border: 1px #673AB7 solid;
+  border-radius: 5px;
+  cursor: pointer;
+}

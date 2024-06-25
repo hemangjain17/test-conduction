@@ -1,0 +1,45 @@
+.option-text-container{
+  display: flex;
+  justify-content: start;
+  align-items: last baseline;
+  margin-left: 20px;
+}
+.option-index-num{
+  font-family: cursive;
+  font-weight: bold;
+  color: blue;
+  font-size: 15px;
+  margin-left: 20px;
+}
+.option-text{
+  display: inline-block;
+  width: 540px;
+  height: 22px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-top: 25px;   
+  border-bottom: 1px solid rgb(204, 201, 201);
+}
+.option-add-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 540px;
+  margin-left: 55px;
+  padding-left: 5px;
+  margin-top: 25px;   
+  border-bottom: 1px solid rgb(204, 201, 201);
+  font-size: 14px;
+  font-family: cursive;
+  color: grey;
+  cursor: pointer;
+}
+.option-add-btn-text{
+  padding-bottom: 5px;
+}
+.add-btn-image{
+  width: 25px;
+  height: 25px;
+}
